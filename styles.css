@@ -23,3 +23,11 @@ p::first-line{
 #title{
     border: 1px solid green;
 }
+
+.btn{
+background-color: transparent;
+}
+
+.btn--red{
+    background-color: rgb(255, 0, 0);
+}
