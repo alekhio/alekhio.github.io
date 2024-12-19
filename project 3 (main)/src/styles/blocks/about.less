@@ -1,0 +1,132 @@
+.about{
+  
+  &__block2{
+      display: flex;
+      position: relative;
+      
+  }
+  &__block3{
+      position: relative;
+      display: flex;
+      justify-content: space-between;
+      margin-top: 110px;
+      
+      &-1{
+          display: flex;
+          flex-direction: column;
+          align-items: end;
+          justify-content: space-between;
+        }
+  }
+  &__title{
+      color:@black;
+      font-family: @font1;
+      font-size: 44px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 50px;
+      
+  }
+  &__title2{
+      max-width: 868px;
+      width:69%;
+      text-wrap: wrap;
+      margin-bottom: 94px;
+      
+  }
+  &__text, &__text2{
+      max-width: 867px;
+      flex-wrap: wrap;
+      font-family: @font1;
+      font-size: 18px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: normal;
+      float: right;
+      
+  }
+  &__text3{
+      max-width: 344px;
+      margin-top: 155px;
+      
+  }
+  &__img1{
+      width: 65%;
+      height: auto;
+      margin: 100px 0;
+      
+  }
+  &__img2{
+      width: 31%;
+      height: auto;
+      position:absolute;
+      top:-50vh;
+      right: 0;
+      float:right;
+      
+  }
+  &__img3{
+      position: absolute;
+      top:0;
+  }
+  &__pic3{
+      max-width: 872.4px;
+      width:100%;
+      max-height: 361.6px;
+      position: relative;
+      top:18.48px;
+      left:48.86px;
+      flex-shrink: 0;
+      
+  }
+  &__rectangle{
+      max-width: 930px;
+      width:100%;
+      height: 246px;
+      background:@red;
+      position: absolute;
+      top:0;
+      left:0;
+      float: left;
+      
+  }
+  &__link{
+      float:right;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      width: 100%;
+      margin-top:88px;
+      max-width: 353px;
+      
+      &:hover{
+          color:@red_dark;
+          cursor:pointer;
+
+      }
+  }
+  &__btn{
+      height:60px;
+      width: 91px;
+      
+      &:hover{
+          color:@red_dark;
+          cursor:pointer;
+      }
+      &-text{
+          font-size: 16px;
+          font-weight: 600;
+          line-height: 1.362;
+          color:@black;
+          &:hover{
+            color:@red_dark;
+            cursor:pointer;
+            
+        }
+          //ПОКА НЕ РАБОТАЕТ ИЗМЕНЕНИЕ ЦВЕТА SVG ИКОНКИ СТРЕЛКИ
+      }
+  }
+  .container();
+}
+
