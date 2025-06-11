@@ -1,3 +1,3 @@
-[umay](https://alekhio.github.io/dist/index.html)  -  https://alekhio.github.io/dist/index.html
+[alekhio](https://alekhio.github.io/project (main)/dist/index.html)  -  https://alekhio.github.io/project (main)/dist/index.html
 
 
